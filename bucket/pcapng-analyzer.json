@@ -1,0 +1,41 @@
+{
+    "version": "2.5.0",
+    "description": "Plain-English diagnosis of pcap and pcapng network captures, in your browser.",
+    "homepage": "https://pcapnganalyzer.com",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://pcapnganalyzer.com/license.html"
+    },
+    "notes": [
+        "Start it from the Start menu (PCAPNG Analyzer) or by running pcapng-analyzer.",
+        "Your browser opens on it, signed in. Data: %LOCALAPPDATA%\\PCAPNG Analyzer"
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/stumat1/pcapng-analyzer-desktop/releases/download/2.5.0/pcapng-analyzer-2.5.0-windows-x64.zip",
+            "hash": "1a288f5d41efc85cf7eae31b3c03058b792e7bb7eedf88ebc561296b30a89911",
+            "extract_dir": "pcapng-analyzer-2.5.0-windows-x64"
+        }
+    },
+    "bin": "pcapng-analyzer.exe",
+    "shortcuts": [
+        [
+            "pcapng-analyzer.exe",
+            "PCAPNG Analyzer"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/stumat1/pcapng-analyzer-desktop"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/stumat1/pcapng-analyzer-desktop/releases/download/$version/pcapng-analyzer-$version-windows-x64.zip",
+                "extract_dir": "pcapng-analyzer-$version-windows-x64"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHA256SUMS.txt"
+        }
+    }
+}
