@@ -1,5 +1,5 @@
 {
-    "version": "2.5.0",
+    "version": "2.5.1",
     "description": "Plain-English diagnosis of pcap and pcapng network captures, in your browser.",
     "homepage": "https://pcapnganalyzer.com",
     "license": {
@@ -12,9 +12,9 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/stumat1/pcapng-analyzer-desktop/releases/download/2.5.0/pcapng-analyzer-2.5.0-windows-x64.zip",
-            "hash": "1a288f5d41efc85cf7eae31b3c03058b792e7bb7eedf88ebc561296b30a89911",
-            "extract_dir": "pcapng-analyzer-2.5.0-windows-x64"
+            "url": "https://github.com/stumat1/pcapng-analyzer-desktop/releases/download/2.5.1/pcapng-analyzer-2.5.1-windows-x64.zip",
+            "hash": "c067f9a8220b4c7f3003562846cc8c79156c94af256f3e951dc1040980723721",
+            "extract_dir": "pcapng-analyzer-2.5.1-windows-x64"
         }
     },
     "bin": "pcapng-analyzer.exe",
